@@ -1,0 +1,55 @@
+header{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    text-align: center;
+    border: 0cap;
+    
+}
+h1{
+    padding: 15px;
+    margin: 15px;
+}
+ .content{
+    width: 5%;
+    text-align: center;
+    margin: 5%;
+    padding: 19px;
+    font-size: larger;
+ }
+p{
+    color: black;
+}
+ul{
+    color: blue;
+    background-attachment: fixed;
+    margin: 1px;
+    padding: 15px;
+    font-size: medium;
+}
+footer{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+a img{
+    width: 500px;
+    margin: 5%;
+    text-align: center;
+    padding: none;
+    background-image: -webkit-image-set();
+}
+.html{
+    padding: none;
+    margin: auto;
+    width: 50%;
+}
+.css{
+    width: 300px;
+    padding: 0;
+    margin:auto
+}
+.javaskript{
+    width: 500px;
+    margin: auto;
+    padding: none;
+    
+}
