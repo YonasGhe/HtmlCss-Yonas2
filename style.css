@@ -9,6 +9,14 @@ h1{
     padding: 15px;
     margin: 15px;
 }
+h2{
+    text-align: center;
+    margin-right: 10%;
+    color:rgba(143, 44, 136, 0.772)
+}
+h3{
+    margin-left: 10%;
+}
  .content{
     width: 5%;
     text-align: center;
@@ -30,7 +38,7 @@ footer{
     background-color: blanchedalmond;
     font-family: 'Courier New', Courier, monospace;
 }
-a img{
+img{
     width: 500px;
     margin: 5%;
     text-align: center;
