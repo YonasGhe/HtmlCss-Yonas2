@@ -1,31 +1,60 @@
+body{
+    background-color: darkgray;
+}
 header{
-    background-color: blanchedalmond;
-    color: blueviolet;
-    text-align: center;
-    border: 0cap;
+    background-color: #333;
     
 }
+.brunch{
+margin-left: 20px;
+}
 h1{
-    padding: 15px;
-    margin: 15px;
+    text-align: center;
+    color: blueviolet;
+    padding: 20px;
+    margin: 20px;
 }
 h2{
     text-align: center;
     margin-right: 10%;
-    color:rgba(143, 44, 136, 0.772)
+    color: darkblue;
 }
 h3{
     margin-left: 10%;
+    color: darkslateblue;
 }
  .content{
-    width: 5%;
-    text-align: center;
-    margin: 5%;
-    padding: 19px;
-    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: lavenderblush;
  }
+ .course{
+    background-color: #345;
+    margin: 2rem;
+    padding: 1rem;
+ }
+ img{
+    height: 200px;
+    font-size: small;
+ }
+ .course p{
+    color: white;
+ }
+ main{
+    
+    background-color: darkgray;
+ }
+ h4{
+    color: #345;
+    margin: 3rem;
+ }
+
 p{
     color: black;
+    margin: 2rem;
+    padding: 10px;
 }
 ul{
     color: blue;
@@ -34,30 +63,21 @@ ul{
     padding: 15px;
     font-size: medium;
 }
-footer{
-    background-color: blanchedalmond;
-    font-family: 'Courier New', Courier, monospace;
+li{
+    
+    margin: 2rem;
 }
-img{
-    width: 500px;
-    margin: 5%;
-    text-align: center;
-    padding: none;
-    background-image: -webkit-image-set();
+.foot{
+    width: 100%;
+    background-color: #456;
+    font-family: 'Courier New', Courier, monospace; 
 }
-.html{
-    padding: none;
-    margin: auto;
-    width: 50%;
-}
-.css{
-    width: 300px;
-    padding: 0;
-    margin:auto
-}
-.javaskript{
-    width: 500px;
-    margin: auto;
-    padding: none;
+@media (max-width: 700px) {
+    body{
+        text-align: center;
+    }
+    .content{
+        display: block;
+    }
     
 }
